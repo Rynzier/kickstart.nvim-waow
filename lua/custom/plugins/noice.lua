@@ -1,6 +1,6 @@
 return {
 
-  {
+  --[[  {
     'folke/noice.nvim',
     event = 'VeryLazy',
 
@@ -26,4 +26,5 @@ return {
       'rcarriga/nvim-notify',
     },
   },
+--]]
 }
