@@ -9,7 +9,8 @@ return {
       ['core.dirman'] = { -- Manages Neorg workspaces
         config = {
           workspaces = {
-            notes = 'C:/Users/Rynzier/Documents/neorg',
+            notes = '~/Notes',
+            school = '~/Documents/School/Notes',
           },
           default_workspace = 'notes',
         },
