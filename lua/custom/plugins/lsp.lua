@@ -179,6 +179,9 @@ return {
           },
         },
       },
+      zls = {
+        zig_exe_path = '$HOME/zig/zig-linux-x86_64-0.14.0/',
+      },
     }
 
     -- Ensure the servers and tools above are installed
@@ -208,6 +211,8 @@ return {
           require('lspconfig')[server_name].setup(server)
         end,
       },
+      ensure_installed = {},
+      automatic_installation = {},
     }
   end,
 }
